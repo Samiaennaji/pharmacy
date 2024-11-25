@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
 
 public class LoginPage extends Application {
     @Override
@@ -15,6 +16,7 @@ public class LoginPage extends Application {
         stage.setTitle("Login page ");
         stage.setScene(scene);
         stage.show();
+
     }
 
 
