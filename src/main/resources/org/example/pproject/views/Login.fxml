@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.Cursor?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
@@ -10,24 +9,23 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.paint.Color?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" style="-fx-background-color: #f4f4f9;">
+<BorderPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f4f4f9;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <left>
       <AnchorPane prefWidth="250.0" style="-fx-background-color: #2d6a8f;" BorderPane.alignment="CENTER">
          <children>
             <!-- Logo Section -->
-            <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="75.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="125.0" fitWidth="63.0" layoutX="94.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../image/logo_login.png" ></Image>
+                  <Image url="@../../../../image/logo_login.png" />
                </image>
                <effect>
-                  <DropShadow radius="10" color="#1f4d6e" />
+                  <DropShadow color="#1f4d6e" radius="10" />
                </effect>
             </ImageView>
             <!-- App Title -->
-            <Label layoutX="25.0" layoutY="200.0" text="Pharmacy Management" textFill="#ffffff" wrapText="true" alignment="CENTER">
+            <Label alignment="CENTER" layoutX="25.0" layoutY="200.0" text="Pharmacy Management" textFill="#ffffff" wrapText="true">
                <font>
                   <Font name="Arial Bold" size="18.0" />
                </font>
@@ -55,7 +53,7 @@
             <PasswordField layoutX="50.0" layoutY="210.0" prefWidth="250.0" promptText="Enter your password" style="-fx-border-color: #2d6a8f; -fx-border-radius: 5; -fx-background-radius: 5;" />
 
             <!-- Login Button -->
-            <Button layoutX="50.0" layoutY="270.0" prefWidth="250.0" text="Login" textFill="#ffffff" style="-fx-background-color: #2d6a8f; -fx-background-radius: 5;" />
+            <Button layoutX="50.0" layoutY="270.0" prefWidth="250.0" style="-fx-background-color: #2d6a8f; -fx-background-radius: 5;" text="Login" textFill="#ffffff" />
          </children>
       </AnchorPane>
    </center>

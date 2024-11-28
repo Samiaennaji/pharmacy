@@ -1,4 +1,4 @@
-package org.example.pproject;
+package org.example.pproject.Controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -11,4 +11,7 @@ public class ControllerLogin {
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome !");
     }
+
+
+
 }
